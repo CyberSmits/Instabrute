@@ -16,4 +16,4 @@ sleep 8
 
 # 🟢 Step 3: Run Python Tool
 echo "🚀 Launching CyberSmits Tool..."
-python instabrute.py
+python node.py

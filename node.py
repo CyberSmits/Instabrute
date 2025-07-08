@@ -13,17 +13,17 @@ print("""
    \\ \\_____\\  \\ \\_\\    \\ \\_\\  \\ \\_____\\    \\ \\_\\  \\ \\_\\ \\_\\/\\_____\\
     \\/_____/   \\/_/     \\/_/   \\/_____/     \\/_/   \\/_/\\/_/\\/_____/
 
-                            [ CYBERSMITS ]                                    """)
+                            [ ETHICALMIND ]                                    """)
 
 # 💠 Tool Info Banner
 print("""
 ╔══════════════════════════════════════════╗
-║         🚀  CYBERSMITS TOOL v1.0         ║
+║         🚀  ETHICALMIND TOOL v1.0         ║
 ╠══════════════════════════════════════════╣
 ║  🧪 BRUTEFORCE PROXY SIMULATOR (SAFE)     ║
-║  🧑‍💻 Created by: CyberSmits (YouTube)     ║
+║  🧑‍💻 Tool Created by: Anonymous Teach   ║
 ║  🎬 Watch & Subscribe:                   ║
-║  👉 https://www.youtube.com/@cybersmiths_team      ║
+║  👉 https://youtube.com/@ethical_mind   ║
 ╚══════════════════════════════════════════╝
 """)
 
@@ -31,14 +31,14 @@ print("""
 confirm = input("📌 Have you subscribed to the channel? (yes/no): ").strip().lower()
 if confirm != "yes":
     print("❌ You must subscribe to CyberSmits YouTube channel to use this tool.")
-    print("➡️ Redirecting you to: https://www.youtube.com/@cybersmiths_team")
+    print("➡️ Redirecting you to: https://youtube.com/@ethical_mind")
     try:
-        webbrowser.open("https://www.youtube.com/@cybersmiths_team")
+        webbrowser.open("https://youtube.com/@ethical_mind")
     except:
         try:
-            os.system("termux-open-url https://www.youtube.com/@cybersmiths_team")
+            os.system("termux-open-url https://youtube.com/@ethical_mind")
         except:
-            print("🔗 Please open manually: https://www.youtube.com/@cybersmiths_team")
+            print("🔗 Please open manually: https://youtube.com/@ethical_mind")
     sys.exit()
 
 # Inputs

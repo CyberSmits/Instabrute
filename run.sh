@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 🔗 Step 1: Open YouTube channel for subscription
-echo "📺 Opening CyberSmits YouTube channel..."
-termux-open-url https://www.youtube.com/@cybersmiths_team
+echo "📺 Opening ethical mind YouTube channel..."
+termux-open-url https://youtube.com/@ethical_mind
 
 # ⏳ Optional wait for user to subscribe
 sleep 5
@@ -15,5 +15,5 @@ tor -f $HOME/.torrc &
 sleep 8
 
 # 🟢 Step 3: Run Python Tool
-echo "🚀 Launching CyberSmits Tool..."
+echo "🚀 Launching ETHICALMIND Tool..."
 python node.py
